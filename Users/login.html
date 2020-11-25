@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <title>Login panel</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="./css/login.css">
+  <script src="./scripts/login.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <body>
+    <div class="loginbox">
+      <img src="./css/user.png" class="user">
+      <form>
+        <p><i class="fa fa-user" aria-hidden="true"></i> User Email</p>
+        <input type="text" name="username" placeholder="Enter Email / Mobile number" id="username">
+        <p><i class="fa fa-key" aria-hidden="true"></i> Password</p>
+        <input type="password" name="password" placeholder="Enter Password" id="password">
+        <span class="eye" onclick="displayPsw()">
+          <i id="enable" class="fa fa-eye" aria-hidden="true"></i>
+          <i id="disable" class="fa fa-eye-slash" aria-hidden="true"></i>
+        </span>
+        <input type="button" name="loginbtn" value="Login" onclick="validateUsr();">
+        <a href="#">Forgotten password?</a>
+      </form>
+    </div>
+  </body>
+</html>

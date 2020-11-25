@@ -1,0 +1,2 @@
+[1122/162458.962:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Fabio\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\13db371a-feda-4903-90e7-7fdba7dbd3b6: Impossibile trovare il percorso specificato. (0x3)
+[1122/162458.962:ERROR:directory_reader_win.cc(43)] FindFirstFile: Impossibile trovare il percorso specificato. (0x3)

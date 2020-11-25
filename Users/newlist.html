@@ -1,0 +1,46 @@
+<html lang="it">
+  <head>
+    <title>minimaList</title>
+
+    <link rel="stylesheet" href="./css/newlist.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descriprion" content="List of element stored in a database">
+    <meta charset="UTF-8">
+
+  </head>
+
+  <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products -->
+  <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+
+  <body>
+    <div id="root">
+      <div id="input-container">
+
+        <input type="text" id="title-input" placeholder="Enter a title..." maxlength=50/>
+
+        <div id="new-input">
+          <input type="text" id="todo-input" placeholder="Enter a task" maxlength=50/>
+          <div id="add" class="material-icons">add</div>
+        </div>
+
+      </div>
+
+      <div id="list-container"></div>
+
+      <div class="button-container">
+        <div id="uncheck" onclick="uncheckAll();">Uncheck all</div>
+        <div id="removeCompleted" onclick="removeCompleted();">Remove tasks</div>
+      </div>
+
+    </div>
+
+  </body>
+
+  <script type="text/javascript" src="./scripts/newlist.js"></script>
+
+</html>

@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, #588c00, #ffc917, #ff5e20);
+  font-family: sans-serif;
+}
+
+#particles-js{
+  height: 100vh;
+}
+
+.indexbox {
+  width: 450px;
+  height: 475px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 20px 20px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.8)
+}
+
+.indexbox h1 {
+  text-align: center;
+}
+
+
+.indexbox input[value="Register"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #588c00;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  width: 98%;
+  margin-bottom: 20px;
+}
+
+.indexbox input[type="button"]:hover {
+  cursor: pointer;
+  background: aqua;
+  color: black;
+}

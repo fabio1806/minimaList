@@ -1,0 +1,29 @@
+VIDEO FORM
+https://www.youtube.com/watch?v=Sk_LikpxUKQ&ab_channel=WhiteHackology
+
+CODICE AUTH
+https://github.com/firebase/snippets-web/blob/1bb200eaf712ea73639f87cb8b2c8902189be50c/auth/email.js#L27-L36
+
+CODICE PER LOGIN SOCIAL
+https://medium.com/javascript-in-plain-english/firebase-authentication-with-firestore-database-78e6e4f348c6
+
+
+ALERT per psw errata con :
+swal({
+  title: "Login failed",
+  text: "Username & Password are incorrect, Please try again...",
+  icon: "error";
+});
+
+ALERT per campi vuoti con :
+swal({
+  title: "Login failed",
+  text: "Username & Password are not fulfilled...",
+  icon: "info";
+});
+
+ALERT per login riuscito con :
+swal({
+  title: "Login Successful",
+  icon: "success";
+});
