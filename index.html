@@ -3,23 +3,25 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./css/index.css">
-    <title>MinimaList index</title>
+    <title>MinimaList</title>
   </head>
   <body>
     <div class="indexbox">
       <h1>minimaList</h1>
-      <form>
-
+      <form name="Login" action="MainServ">
+        <p><i class="fa fa-twitter fa-2x"></i><a href=""><input type="button" name="twitterbtn" value="Log in with Twitter"></a></p>
+        <p><i class="fa fa-facebook-f fa-2x"></i><a href=""><input type="button" name="facebookbtn" value="Log in with Facebook"></a></p>
+        <p><i class="fa fa-google fa-2x"></i><a href=""><input type="button" name="googlebtn" value="Log in with Google"></a></p>
+        <p><i class="fa fa-envelope fa-2x"></i><a href="login.html"><input type="button" name="emailbtn" value="Log in with Email"></a></p>
       </form>
-      <p>Or: </p>
       <br>
-      <a href="auth.html"><input type="button" name="registersbt" value="Register"></a>
+      <p>Or: </p>
+      <p><a href="reg.html"><input type="button" name="registerbtn" value="Register"></a></p>
     </div>
     <div id="particles-js"></div>
   </body>
 
   <script src="./scripts/particles.js"></script>
   <script src="./scripts/app.js"></script>
-  <script type="text/javascript" src="./scripts/index.js"></script>
 
 </html>

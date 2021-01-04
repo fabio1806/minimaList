@@ -6,6 +6,7 @@ body {
   padding: 0;
   background: linear-gradient(45deg, #588c00, #ffc917, #ff5e20);
   font-family: sans-serif;
+  height: 100vh;
 }
 
 #particles-js{
@@ -16,7 +17,7 @@ body {
   color: black;
 }
 
-.indexbox {
+.regbox {
   width: 450px;
   height: 475px;
   background: rgba(0, 0, 0, 0.5);
@@ -30,24 +31,27 @@ body {
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.8)
 }
 
-.indexbox h1 {
+.regbox h1 {
   text-align: center;
+  margin-bottom: 50px;
 }
 
-.indexbox p {
+.regbox p {
   margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   height: 40px;
   position: relative;
 }
 
-.indexbox i {
+.regbox i {
   position: absolute;
   top: 50%;
   left: 20px;
   transform: translate(0, -50%);
 }
 
-.indexbox input {
+.regbox input {
   border: none;
   outline: none;
   height: 40px;
@@ -60,28 +64,28 @@ body {
   margin-bottom: 20px;
 }
 
-.indexbox input[name="twitterbtn"] {
+.regbox input[name="twitterbtn"] {
   background: #50abf1;
 }
 
-.indexbox input[name="facebookbtn"] {
+.regbox input[name="facebookbtn"] {
   background: #4867aa;
 }
 
-.indexbox input[name="googlebtn"] {
+.regbox input[name="googlebtn"] {
   background: white;
   color: black;
 }
 
-.indexbox input[name="emailbtn"] {
+.regbox input[name="emailbtn"] {
   background: #50abf1;
 }
 
-.indexbox input[name="registerbtn"] {
+.regbox input[name="registerbtn"] {
   background: #588c00;
 }
 
-.indexbox input[type="button"]:hover {
+.regbox input[type="button"]:hover {
   cursor: pointer;
   background: #aeaeae;
   color: black;

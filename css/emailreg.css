@@ -1,0 +1,76 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+  margin: 0;
+  padding: 0;
+  height:100vh;
+  background-image: url("computer_dogs.jpg");
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.registrationbox {
+  width: 450px;
+  height: 475px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 30px 30px;
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 1.0);
+}
+
+.registrationbox p {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.registrationbox input{
+  width: 98%;
+  margin-bottom: 20px;
+}
+
+.registrationbox input[type="text"], input[type="password"] {
+  width: 95%;
+  border: none;
+  border-bottom: 1.0px solid white;
+  background: transparent;
+  outline: none;
+  height: 37px;
+  color: white;
+  font-size: 15px;
+}
+
+.registrationbox input[value="Register"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: green;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.registrationbox input[type="button"]:hover {
+  cursor: pointer;
+  background: #aeaeae;
+  color: black;
+}
+
+::placeholder{
+  color: gray;
+}
+
+.eye {
+  position: absolute;
+  cursor: pointer;
+  transform: translate(-20px, 10px);
+}

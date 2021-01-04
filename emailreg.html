@@ -2,16 +2,15 @@
 <html lang="it">
   <head>
     <meta charset="utf-8">
-    <title>Login panel</title>
+    <title>Registration panel</title>
   </head>
-  <link rel="stylesheet" type="text/css" href="./css/login.css">
-  <script src="./scripts/login.js"></script>
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/emailreg.css">
+
 
   <body>
-    <div class="loginbox">
-      <img src="./css/user.png" class="user">
-      <form name="Login" action="LoginServ">
+    <div class="registrationbox">
+      <h1>Registrati</h1>
+      <form>
         <p><i class="fa fa-user" aria-hidden="true"></i> User Email</p>
         <input type="text" name="username" placeholder="Enter Email / Mobile number" id="username">
         <p><i class="fa fa-key" aria-hidden="true"></i> Password</p>
@@ -20,9 +19,11 @@
           <i id="enable" class="fa fa-eye" aria-hidden="true"></i>
           <i id="disable" class="fa fa-eye-slash" aria-hidden="true"></i>
         </span>
-        <input type="button" name="loginbtn" value="Login" onclick="validateUsr();">
-        <a href="#">Forgotten password?</a>
+        <input type="button" name="loginbtn" value="Register" onclick="registerUsr();">
       </form>
     </div>
   </body>
+
+  <script src="./scripts/firestoreInit.js"></script>
+  <script src="./scripts/emailreg.js"></script>
 </html>
